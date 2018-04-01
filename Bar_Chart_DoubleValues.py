@@ -24,13 +24,6 @@ store2 = [t*element + w*n for element
 
 plt.bar(store2, sales2)
 
-n = 3  # This is our third dataset (out of 3)
-t = 3 # Number of datasets i.e. sales1 & sales2 & sales3
-d = 6 # Number of sets of bars
-w = 0.8 # Width of each bar
-store3 = [t*element + w*n for element
-             in range(d)]
 
-plt.bar(store3, sales3)
 # Show the bar chart containing 3 bars representing each store
 plt.show()
