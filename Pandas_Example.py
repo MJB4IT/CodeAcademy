@@ -1,6 +1,6 @@
 import pandas as pd
 
-pv = pd.read_csv('page_visits.csv')
+pv = pd.read_csv('cust.csv')
 
 print(pv.head())
 
